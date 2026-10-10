@@ -15,3 +15,12 @@ FastRender merges them into a few files, keeping every rule in the same order an
 | Hovering, focusing, opening popups | 121.7 ms | 29.3 ms | 76% |
 | Opening a big panel | 41.1 ms | 25.8 ms | 37% |
 | **Overall** | **859.8 ms** | **350.1 ms** | **59%** |
+
+## Setup
+
+FastRender is a userplugin, so you need Vencord or Equicord built from source.
+
+1. Download this repository.
+2. Copy the `FastRender` folder into `src/userplugins`.
+3. Run `pnpm build`.
+4. Restart Discord and enable FastRender in `Settings` > `Plugins`.
